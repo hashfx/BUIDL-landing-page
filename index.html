@@ -13,6 +13,9 @@
     <!-- Carousel Script -->
     <script type="text/javascript" src="dist/js/jquery.min.js"></script>
     <script type="text/JavaScript" src="dist/js/cloud-carousel.1.0.5.js"></script>
+    <!-- Scroll Swiper Carousel -->
+    <link rel='stylesheet' href='https://cdn.rawgit.com/filipelinhares/ress/master/dist/ress.min.css'>
+    <link rel="stylesheet" href="carousel/style.css">
     <script type="text/javascript">
         $(document).ready(function () {
 
@@ -200,17 +203,17 @@
                 </div>
             </section>
 
-            <section class="carousel section">
+            <!-- <section class="carousel section">
                 <div class="container">
                     <div id="templatemo_slider" style="width: 960px;
                     margin: 0 auto;
                     padding: 0 10px 10px;
                 ">
-                        <!-- This is the container for the carousel. -->
+                        This is the container for the carousel. 
                         <div id="carousel1"
                             style="width:960px; height:280px;background:none;overflow:scroll; margin-top: 20px">
-                            <!-- All images with class of "cloudcarousel" will be turned into carousel items -->
-                            <!-- You can place links around these images -->
+                            All images with class of "cloudcarousel" will be turned into carousel items -->
+                            <!-- You can place links around these images 
                             <a href="#" rel="lightbox"><img class="cloudcarousel" src="dist/images/slider/01.jpg"
                                     alt="CSS Templates 1" title="Website Templates 1" /></a>
                             <a href="#" rel="lightbox"><img class="cloudcarousel" src="dist/images/slider/02.jpg"
@@ -229,15 +232,89 @@
                                     alt="Flash Templates 4" title="Flash Templates 4" /></a>
                         </div>
 
-                        <!-- Define left and right buttons. -->
+                        Define left and right buttons.
                         <center>
                             <input id="slider-left-but" type="button" value="" \ />
                             <input id="slider-right-but" type="button" value="" />
                         </center>
                     </div>
                 </div>
-            </section>
+            </section> -->
             <!-- </div> -->
+            <section class="carousel section-2">
+                <div class="page-wrap">
+
+                    <div id="home-slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide-one">
+                                    <div class="swiper-image" data-swiper-parallax-y="-20%">
+                                        <div class="swiper-image-inner swiper-image-left swiper-image-one">
+                                            <h1>BUIDL &lt;CREW&gt; <span class="emphasis">Meetup</span>
+                                                <br><span>Indore</span></h1>
+                                            <p>Sunday 11 June 1000hrs IST</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-image" data-swiper-parallax-y="35%">
+                                        <div class="swiper-image-inner swiper-image-right swiper-image-two">
+                                            <p class="paragraph">
+                                                <b>Agenda:</b> Induction of Crew Members <br />
+                                                <b>Venue:</b> Indore <br />
+                                                <b>Time:</b> 10:00 am IST <br />
+                                                <b>Guest Speaker:</b> Sam Altman <br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-two">
+                                    <div class="swiper-image" data-swiper-parallax-y="-20%">
+                                        <div class="swiper-image-inner swiper-image-left swiper-image-three">
+                                            <h1>BUIDL <span class="emphasis">Hackathon</span><br><span>IIT-Indore</span>
+                                            </h1>
+                                            <p>Saturday 08 July 1330hrs IST</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-image" data-swiper-parallax-y="35%">
+                                        <div class="swiper-image-inner swiper-image-right swiper-image-four">
+                                            <p class="paragraph">
+                                                <b>Agenda:</b> Web3 based Hackathon <br />
+                                                <b>Venue:</b> IIT-Indore <br />
+                                                <b>Time:</b> 01:30 pm IST <br />
+                                                <b>Schedule:</b> TBD <br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide-three">
+                                    <div class="swiper-image" data-swiper-parallax-y="-20%">
+                                        <div class="swiper-image-inner swiper-image-left swiper-image-five">
+                                            <h1>Web3.0 <span class="emphasis">Award Show</span><br><span>🏆</span></h1>
+                                            <p>Sunday 30 July 1400hrs IST</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-image" data-swiper-parallax-y="35%">
+                                        <div class="swiper-image-inner swiper-image-right swiper-image-six">
+                                            <p class="paragraph">
+                                                <b>Agenda:</b> Award Ceremony for Web3.0 Contributors <br />
+                                                <b>Venue:</b> Delhi HQ+ <br />
+                                                <b>Time:</b> 02:00 pm IST <br />
+                                                <b>Organiser:</b> BUIDL &lt;CREW&gt; <br />
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <!-- </div> -->
+                    <!-- partial -->
+                    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+                    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js'></script>
+                    <script src="carousel/script.js"></script>
+            </section>
         </main>
     </div>
 
