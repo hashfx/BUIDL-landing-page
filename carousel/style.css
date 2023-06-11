@@ -83,7 +83,7 @@ Home Slider
   background-color: hsla(0, 0%, 0%, 0.5);
   background-blend-mode: multiply;
 }
-h1 {
+h1.carousel {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 500;
   color: #fff;
